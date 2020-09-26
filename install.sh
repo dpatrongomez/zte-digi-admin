@@ -4,7 +4,7 @@ apt install wireshark -y
 
 echo 'Instalando mitmproxy'
 apt install python3-pip -y
-pip3 install mitmproxy -y
+pip3 install mitmproxy
 
 echo 'Instalando lighttpd y stunnel'
 apt install lighttpd -y
